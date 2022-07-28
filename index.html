@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>it's Your Day</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+   
+    <link rel="stylesheet" href="snow.css">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+   
+    
+    
+</head>
+<body >
+
+   
+
+    
+
+    <header style="height: 15em; background: rgb(255, 255, 255);" class="text-cente">
+
+        <div>
+
+            <div style="background-color: rgb(255, 251, 251);  "  >
+                <div class="snow foreground"></div>
+                <div class="snow foreground layered"></div>
+                <div class="snow middleground"></div>
+                <div class="snow middleground layered"></div>
+                <div class="snow background"></div>
+                <div class="snow background layered"></div>
+            </div>
+
+        </div>
+
+
+        <div >
+    
+            <section class="slide-wrapper">
+                <!-- banner slide -->
+                <div class="agile_banner bg1">
+                    <div class="layer">
+                        <div class="container">
+                            <div class="banner_text_wthree">
+                                <div class="d-flex">
+                                    <h1>Today</h1>
+                                    <h2>&nbsp;a true queen was born</h2>
+                                </div>
+                                <div id="text" class="banner_text_w3ls my-md-5 my-3"></div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+
+        <script>
+            //text effect
+    
+            document.addEventListener('DOMContentLoaded', function (event) {
+    
+                var dataText = [
+                    "Wishing you, divine peace and happiness.",
+                    "today and throughout your life",
+                    "You make the world a better and brighter place ",
+                    " and hope all your wishes come true",
+                    "smile on your face stay forever like this",
+                    "Live your best life"
+                ];
+    
+                // type one text in the typwriter
+                // keeps calling itself until the text is finished
+                function typeWriter(text, i, fnCallback) {
+                    // chekc if text isn't finished yet
+                    if (i < (text.length)) {
+                        // add next character to h1
+                        document.getElementById("text").innerHTML = text.substring(0, i + 1) +
+                            '<span aria-hidden="true" class="banner_text_w3ls"></span>';
+    
+                        // wait for a while and call this function again for next character
+                        setTimeout(function () {
+                            typeWriter(text, i + 1, fnCallback)
+                        }, 50);
+                    }
+                    // text finished, call callback if there is a callback function
+                    else if (typeof fnCallback == 'function') {
+                        // call callback after timeout
+                        setTimeout(fnCallback, 1000);
+                    }
+                }
+                // start a typewriter animation for a text in the dataText array
+                function StartTextAnimation(i) {
+                    // check if dataText[i] exists
+                    if (i < dataText[i].length) {
+                        // text exists! start typewriter animation
+                        typeWriter(dataText[i], 0, function () {
+                            // after callback (and whole text has been animated), start next text
+                            StartTextAnimation(i + 1);
+                        });
+                    }
+                }
+                // start the text animation
+                StartTextAnimation(0);
+                
+            });
+        </script>
+    
+
+
+
+
+    </header>
+
+    
+    <div class="row auto-center " id="IMage">
+     
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"  >
+
+           
+          
+        
+    
+           
+                <img src="https://www.thespruce.com/thmb/eLeF2lIFg0h3k3o0SC22CeZYSxo=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/pink-birthday-cake-639239932-9cc8c23051334bfe8ba67d5020c72f4b.jpg" alt="" srcset="" style="height: 25em;width: 35em;">
+      
+           
+    
+           
+
+            
+
+        </div>
+        
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 " >
+
+            <div style="background-color: rgb(173, 162, 190);  height: 25em; width: 35rem; ">
+
+
+                <div class="banner-info text-uppercase" >
+                    <h6 data-aos="fade-right">many many</h6>
+                    <h5 data-aos="fade-right">HappY returns of the Day</h5>
+                    <h3 data-text="SREYA">SREYA</h3>
+                   
+                </div>
+           </div>
+
+
+
+        </div>
+
+    </div>
+    <em></em>
+    <div class="row auto-center" style="height: 20em; width: 36rem;" >
+
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="background-color: rgb(148, 148, 150);"  >
+        
+            <h4  style="padding-top: 5em;">Small Surprice For You,click & Wait 10 sec </h4>
+            
+            <a href="txet.html">
+                
+                
+                <i class="display-1 text-info"  >
+                    <svg style="width: 5em; height: 2em;" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-gift" viewBox="0 0 16 16">
+                        <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 14.5V7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zM1 4v2h6V4H1zm8 0v2h6V4H9zm5 3H9v8h4.5a.5.5 0 0 0 .5-.5V7zm-7 8V7H2v7.5a.5.5 0 0 0 .5.5H7z"/>
+                    </svg> 
+                </i> 
+                
+            </a> 
+           
+            
+
+        </div>
+
+
+    </div>
+
+
+  
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+    
+        
+    
+  
+   
+    
+    
+</body>
+</html>

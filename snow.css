@@ -1,0 +1,111 @@
+.snow-container {
+    position: absolute;
+    height:25em;
+    width: 100%;
+   
+    top: 0;
+    overflow: hidden;
+    z-index:9;
+    pointer-events: none;
+  
+  }
+  .snow-container.two {
+      height: 25em;
+  }
+  .snow {
+    display: block;
+    position: absolute;
+    z-index:99;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+    -webkit-animation: snow linear infinite;
+            animation: snow linear infinite;
+  }
+  .snow.foreground {
+    background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png");
+    -webkit-animation-duration: 7.5s;
+            animation-duration:7.5s;
+  }
+  .snow.foreground.layered {
+    -webkit-animation-delay: 3.25s;
+            animation-delay: 3.25s;
+  }
+  .snow.middleground {
+    background-image: url(https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png);
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+  }
+  .snow.middleground.layered {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  .snow.background {
+    background-image: url(https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png);
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s;
+  }
+  .snow.background.layered {
+    -webkit-animation-delay: 7.5s;
+            animation-delay:  7.5s;
+  }
+  
+  @-webkit-keyframes snow {
+    0% {
+      -webkit-transform: translate3d(0, -100%, 0);
+              transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(0%, 30em, 0);
+              transform: translate3d(0%, 40em, 0);
+    }
+  }
+  @keyframes snow {
+    0% {
+      -webkit-transform: translate3d(0, -100%, 0);
+              transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(0%, 30em, 0);
+              transform: translate3d(0%, 40em, 0);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+  
+ 

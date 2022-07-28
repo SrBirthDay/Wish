@@ -1,0 +1,20 @@
+/*-- /extra skills --*/
+/*-- gallery --*/
+.w3layouts_gallery_grid {
+    padding: 0;
+}
+.w3layouts_gallery_grid img {
+    width: 100%;
+}
+.w3layouts_gallery_grid a {
+    position: absolute;
+    color: #fff;
+    z-index: 999;
+    bottom: 3.5em;
+    font-size: 1.5em;
+    padding: 0.3em;
+    text-transform: uppercase;
+    left: 5.8em;
+    background: #000000d6;
+    }
+	

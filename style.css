@@ -1,0 +1,149 @@
+.banner-info {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.banner-info h5,
+.banner-info h6 {
+    margin: 0.5em 0;
+    font-size: 0.9em;
+    color: #ffd900;
+}
+
+.banner-info h5 {
+    font-size: 1.4em;
+    color: #fff;
+}
+.d-flex{
+    padding-top: 1em;
+}
+
+.banner-info h3 {
+    position: relative;
+    color: rgba(0, 0, 0, .3);
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.banner-info h3:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-width: 10em;
+    white-space: nowrap;
+    color: #fff;
+    animation: loading 5s cubic-bezier(0.6, 0.36, 0.535, 0.045) infinite;
+}
+
+@keyframes loading {
+    0% {
+        max-width: 0;
+    }
+}
+
+/*--//banner--*/
+
+/*--/about--*/
+
+h4.sub-tittle-w3 {
+    font-size: 0.85em;
+    color: #037ef3;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+h3.tittle-w3 {
+    text-shadow: 2px 2px 2px rgba(41, 41, 41, 0.15);
+    font-size: 2.5em;
+    color: #333338;
+    font-weight: 700;
+}
+
+/*----*/
+
+h4.progress-tittle-w3 {
+    color: #4f4f50;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.progress-one .progress {
+    height: 0.5rem;
+    background: #e1e2e2;
+}
+
+
+
+
+
+
+
+
+
+
+
+.banner_text_wthree h1,
+.banner_text_wthree h2 {
+    text-transform: uppercase;
+    color: rgba(212, 209, 209, 0.59);
+    letter-spacing: 3px;
+    font-size: 2.5em;
+}
+
+ul.list-inline.bnr_list_w3 li a,
+a.btn-slide {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    background: rgba(0, 0, 0, 0.46);
+    padding: 1.5em 2em;
+    border: 1px solid transparent;
+    font-weight: 300;
+    padding-left: 10em;
+}
+
+ul.list-inline.bnr_list_w3 li a:hover,
+a.btn-slide:hover {
+    -webkit-transition: border 3s ease;
+    -moz-transition: border 3s ease;
+    -o-transition: border 3s ease;
+    -ms-transition: border 3s ease;
+    transition: border 3s ease;
+    border: 1px solid #fff;
+}
+
+.bg-dark {
+    background-color: #171209 !important;
+}
+
+/* //banner */
+
+/* type writer */
+
+#text {
+    font-size: 2.3em;
+    color: #f865cc;
+    letter-spacing: 1px;
+}
+
+span.banner_text_w3ls {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+.IMage{
+
+    width: 100%;
+}
+
+
+
+
